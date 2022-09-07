@@ -29,7 +29,7 @@ communication with compromised systems.
 
 ### Centralised C2
 
-With a centralised command and control model, a malware “client” will phone home to a C2 server and check for 
+With a centralised command and control model, a malware "client" will phone home to a C2 server and check for 
 instructions. The server-side infrastructure can include redirectors, load balancers, and defense measures to detect 
 security researchers and law enforcement. Public cloud services and Content Delivery Networks (CDNs) are often used to 
 host or mask activity.

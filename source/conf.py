@@ -78,6 +78,7 @@ html_show_copyright = False
 # Intersphinx
 intersphinx_mapping = {
     "attack-trees": ("https://tymyrddin.github.io/attack-trees/", None),
+    "red-network": ("https://tymyrddin.github.io/red-network/", None),
     "cheatsheets": ("https://tymyrddin.github.io/cheatsheets/", None),
     "e2ee-threat-model":("https://tymyrddin.github.io/e2ee-threat-model/", None),
     "da-threat-model":("https://tymyrddin.github.io/da-threat-model/", None),

@@ -22,7 +22,7 @@ From research, what appears to be happening. There's a huge market on the dark s
             2.2.1.2 Hire botnet
         2.2.2 Stuff credentials against target sites/applications
             2.2.2.1 Bypass security and fraud detection such as IP blacklists or rate limiting (AND)
-            2.2.2.2 Spoof the “referer” header value for bypassing referrer checks (AND)
+            2.2.2.2 Spoof the "referer" header value for bypassing referrer checks (AND)
             2.2.2.3 Simulate user with OCR and/or database with possible CAPTCHA images and answers.
             2.2.2.3 Try logins with breached credentials 
 ```
