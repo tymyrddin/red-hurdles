@@ -24,8 +24,6 @@ Forest fire
    docs/phishing/README.md
    docs/phishing/phishing.md
    docs/phishing/pharming.md
-   docs/phishing/contact.md
-   docs/phishing/hook.md
 
 .. toctree::
    :glob:

@@ -12,6 +12,4 @@ Getting in.
 
 * [Phishing overview](phishing.md)
 * [Pharming overview](pharming.md)
-* [Making contact](contact.md)
-* [Shaping the hook](hook.md)
-* ...
+
