@@ -22,7 +22,10 @@ Forest fire
    :caption: Phishing
 
    docs/phishing/README.md
-   docs/phishing/*
+   docs/phishing/phishing.md
+   docs/phishing/pharming.md
+   docs/phishing/contact.md
+   docs/phishing/hook.md
 
 .. toctree::
    :glob:
