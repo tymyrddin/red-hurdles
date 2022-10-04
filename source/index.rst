@@ -8,6 +8,17 @@ Forest fire
    :glob:
    :maxdepth: 1
    :includehidden:
+   :caption: Passwords
+
+   docs/passwords/README.md
+   docs/passwords/brute-force.md
+   docs/passwords/password-spraying.md
+   docs/passwords/hash-cracking.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
    :caption: Phishing
 
    docs/phishing/README.md
