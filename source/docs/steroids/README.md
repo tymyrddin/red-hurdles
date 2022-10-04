@@ -11,6 +11,7 @@ Intelligence gathering on adversary strategies and tactics.
 ## How?
 
 * [About C&C](about.md)
+* 
 * [How botnets are created](botnet.md)
 * [BYOB](byob.md)
 * [Credential stuffing](stuffing.md)
