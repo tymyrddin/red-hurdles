@@ -34,7 +34,8 @@ Forest fire
    :caption: Malware on steroids
 
    docs/steroids/README.md
-   docs/steroids/about.md
+   docs/steroids/unauthorised-access.md
+   docs/steroids/c2.md
    docs/steroids/botnet.md
    docs/steroids/byob.md
    docs/steroids/stuffing.md

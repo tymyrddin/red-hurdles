@@ -10,7 +10,7 @@ Intelligence gathering on adversary strategies and tactics.
 
 ## How?
 
-* [About C&C](about.md)
+* [About C&C](c2.md)
 * 
 * [How botnets are created](botnet.md)
 * [BYOB](byob.md)
