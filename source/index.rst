@@ -53,7 +53,6 @@ Forest fire
    docs/weapons/maltego.md
    docs/weapons/delivery.md
    docs/weapons/botnet.md
-   docs/weapons/stuffing.md
    docs/weapons/SEO-poisoning.md
 
 .. toctree::
@@ -76,6 +75,7 @@ Forest fire
    docs/phishing/README.md
    docs/phishing/phishing.md
    docs/phishing/pharming.md
+   docs/phishing/stuffing.md
 
 .. toctree::
    :caption: Links

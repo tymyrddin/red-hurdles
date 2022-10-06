@@ -25,6 +25,5 @@ browser or software exploitation, USB, or web methods.
 * [Maltego](maltego.md)
 * [Delivery techniques](delivery.md)
 * [Create a botnet](botnet.md)
-* [Credential stuffing](stuffing.md)
-* [SEO poisoning](SEO-poisoning.md)
+* [SEO poisoning](../weapons/SEO-poisoning.md)
 
