@@ -8,7 +8,7 @@ Forest fire
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Threat intel
+   :caption: Intel
 
    docs/intel/README.md
    docs/intel/tiber-eu.md
@@ -27,6 +27,31 @@ Forest fire
    docs/opsec/vulnerabilities.md
    docs/opsec/risks.md
    docs/opsec/countermeasures.md
+   docs/opsec/hide-your-tracks.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Recon
+
+   docs/recon/README.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Weaponisation
+
+   docs/weapons/unauthorised-access.md
+   docs/weapons/README.md
+   docs/weapons/wsh.md
+   docs/weapons/hta.md
+   docs/weapons/vba.md
+   docs/weapons/psh.md
+   docs/weapons/c2.md
+   docs/weapons/maltego.md
+   docs/weapons/delivery.md
 
 .. toctree::
    :glob:
@@ -56,7 +81,6 @@ Forest fire
    :caption: Malware on steroids
 
    docs/steroids/README.md
-   docs/steroids/unauthorised-access.md
    docs/steroids/c2.md
    docs/steroids/botnet.md
    docs/steroids/byob.md
