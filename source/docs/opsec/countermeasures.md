@@ -1,5 +1,9 @@
 # Apply appropriate countermeasures
 
+| [![Red teaming](../../_static/images/red-teaming.png)](https://tryhackme.com/room/opsec) |
+|:--:|
+| [https://tryhackme.com/room/opsec](https://tryhackme.com/room/opsec) |
+
 Countermeasures are designed to prevent an adversary from detecting critical information, provide an alternative 
 interpretation of critical information or indicators (deception), or deny the adversary’s collection system.
 
