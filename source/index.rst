@@ -52,6 +52,9 @@ Forest fire
    docs/weapons/c2.md
    docs/weapons/maltego.md
    docs/weapons/delivery.md
+   docs/weapons/botnet.md
+   docs/weapons/stuffing.md
+   docs/weapons/SEO-poisoning.md
 
 .. toctree::
    :glob:
@@ -73,19 +76,6 @@ Forest fire
    docs/phishing/README.md
    docs/phishing/phishing.md
    docs/phishing/pharming.md
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Malware on steroids
-
-   docs/steroids/README.md
-   docs/steroids/c2.md
-   docs/steroids/botnet.md
-   docs/steroids/byob.md
-   docs/steroids/stuffing.md
-   docs/steroids/SEO-poisoning.md
 
 .. toctree::
    :caption: Links

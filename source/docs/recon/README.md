@@ -16,4 +16,4 @@ orchestrate our attacks.
 
 ## How?
 
-* See [Falconry](https://tymyrddin.github.io/red-recon/), and be quiet, do not make noise.
+* See [Falconry](https://tymyrddin.github.io/red-recon/), and be quiet, keep the noise down.

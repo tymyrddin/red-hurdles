@@ -1,6 +1,6 @@
 # Hide your tracks
 
-The methods used by pirates to hide their tracks
+The methods used by pirates to hide their tracks, for some unserious seriousness.
 
 * Encrypt keystrokes with tools such as Keyscrambler to prevent a keylogger from recording their IP address, Mac address, open ports, operating system, installed applications, default web browser, visited URLs, making screenshots …
 * Create a locked screen saver to prevent live forensics
