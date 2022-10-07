@@ -43,14 +43,14 @@ Forest fire
    :includehidden:
    :caption: Weaponisation
 
-   docs/weapons/unauthorised-access.md
    docs/weapons/README.md
+   docs/weapons/unauthorised-access.md
    docs/weapons/wsh.md
    docs/weapons/hta.md
    docs/weapons/vba.md
    docs/weapons/psh.md
    docs/weapons/c2.md
-   docs/weapons/maltego.md
+   docs/weapons/morec2s.md
    docs/weapons/delivery.md
    docs/weapons/botnet.md
    docs/weapons/SEO-poisoning.md
