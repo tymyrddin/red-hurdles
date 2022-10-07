@@ -17,6 +17,7 @@ and avoid detection. In a red teaming context, this is not the best route to tak
 
 ## How?
 
+* [Password profiling](profiling.md)
 * [Brute-force and dictionary attacks](brute-force.md)
 * [Password spraying](password-spraying.md)
 * [Hash cracking](hash-cracking.md)
