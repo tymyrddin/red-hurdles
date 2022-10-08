@@ -7,10 +7,10 @@
     1.1 Go to the hashcat website to identify the type of hash function and associated module value.
     1.2 Get the rockyou.txt file (if not already available in /usr/share/wordlists/) 
     1.3 Apply the hashcat command
-2. Using Rainbow Tables
-    1.1 Identify the type of hash
-    1.2 Download or generate the rainbow table
-    1.3 Apply command
+2 Using Rainbow Tables
+    2.1 Identify the type of hash
+    2.2 Download or generate the rainbow table
+    2.3 Apply command
 ```
 
 ## Example
