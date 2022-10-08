@@ -79,6 +79,20 @@ Forest fire
    docs/phishing/stuffing.md
 
 .. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Enumeration
+
+   docs/enum/README.md
+   docs/enum/linux.md
+   docs/enum/windows.md
+   docs/enum/dns.md
+   docs/enum/smb.md
+   docs/enum/snmp.md
+   docs/enum/tools.md
+
+.. toctree::
    :caption: Links
 
    Red Team <https://tymyrddin.github.io/red/>
