@@ -107,6 +107,20 @@ Forest fire
    docs/escalation/software.md
 
 .. toctree::
+   :maxdepth: 1
+   :includehidden:
+   :caption: Persistence
+
+   docs/persistence/README.md
+   docs/persistence/tampering.md
+   docs/persistence/backdoor-files.md
+   docs/persistence/services.md
+   docs/persistence/tasks.md
+   docs/persistence/logon.md
+   docs/persistence/backdoor-login.md
+   docs/persistence/existing.md
+
+.. toctree::
    :caption: Links
 
    Red Team <https://tymyrddin.github.io/red/>
