@@ -13,11 +13,12 @@ The blue team are our adversaries and would love to know about our operations.
 
 ## How?
 
-* Identify critical information
-* Analyse threats
-* Analyse vulnerabilities
-* Assess risks
-* Apply appropriate countermeasures
+* [Identify critical information](information.md)
+* [Analyse threats](threats.md)
+* [Analyse vulnerabilities](vulnerabilities.md)
+* [Assess risks](risks.md)
+* [Apply appropriate countermeasures](countermeasures.md)
+* [Hide your tracks](hide-your-tracks.md)
 
 
 
