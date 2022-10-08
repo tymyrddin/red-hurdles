@@ -2,7 +2,7 @@
 
 ## What?
 
-Post exploitation enumeration.
+After gaining a foothold, enumeration is the key to privilege escalation. 
 
 ## Why?
 

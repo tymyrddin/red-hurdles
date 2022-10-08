@@ -93,6 +93,20 @@ Forest fire
    docs/enum/tools.md
 
 .. toctree::
+   :maxdepth: 1
+   :includehidden:
+   :caption: Escalation
+
+   docs/escalation/README.md
+   docs/escalation/tools.md
+   docs/escalation/patterns.md
+   docs/escalation/passwords.md
+   docs/escalation/quick.md
+   docs/escalation/services.md
+   docs/escalation/privileges.md
+   docs/escalation/software.md
+
+.. toctree::
    :caption: Links
 
    Red Team <https://tymyrddin.github.io/red/>

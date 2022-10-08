@@ -1,6 +1,6 @@
 # Hide your tracks
 
-The methods used by pirates to hide their tracks, for some unserious seriousness.
+Noted methods used by hackers to hide their tracks:
 
 * Encrypt keystrokes with tools such as Keyscrambler to prevent a keylogger from recording their IP address, Mac address, open ports, operating system, installed applications, default web browser, visited URLs, making screenshots …
 * Create a locked screen saver to prevent live forensics
@@ -20,3 +20,4 @@ The methods used by pirates to hide their tracks, for some unserious seriousness
 * After a hack, delete any wireless network keys or passphrases, network share passwords and passwords for VPN or dial-up.
 * After a hack, shred all related data, delete the entire hard drive, and install a fresh operating system from bootable disc or USB drive (erase and format the drive’s partitions) to return to normal function.
 * Learn about Digital Forensics, keep up to date.
+* ...
