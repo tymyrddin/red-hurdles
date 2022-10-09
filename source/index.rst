@@ -1,14 +1,15 @@
 Forest fire
 ===============================================
 
-.. image:: _static/images/in-progress.png
-  :alt: In Progress ...
+.. image:: _static/images/redteaming.png
+   :alt: Red Teaming Path on Try Hack Me
+   :target: https://tryhackme.com/path-action/redteaming/join
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Intel
+   :caption: Intel-driven
 
    docs/intel/README.md
    docs/intel/tiber-eu.md
