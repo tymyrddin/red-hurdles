@@ -14,7 +14,7 @@ group:
 
     net localgroup administrators <username> /add
 
-This will allow `<username>` to access the server by using RDP, WinRM or any other remote administration service 
+This will allow `username` to access the server by using RDP, WinRM or any other remote administration service 
 available.
 
 Alternatively, use the Backup Operators group. Users in this group will not have administrative privileges but 
@@ -80,8 +80,11 @@ Export the current configuration to a temporary file:
 
     secedit /export /cfg config.inf
 
-Open the file and add <username> to the lines in the configuration regarding the `SeBackupPrivilege` and 
-`SeRestorePrivilege`:
+Open the file:
+
+| ![Config.inf](../../_static/images/Screenshot from 2022-10-09 21-50-44.png) |
+|:--:|
+| Add `username` at the end of the lines for `SeBackupPrivilege` and `SeRestorePrivilege` |
 
 Convert the `.inf` file into a `.sdb` file and use it to load the configuration back into the system:
 
@@ -97,7 +100,11 @@ Open the configuration window for changing `WinRM` security descriptor:
 
     Set-PSSessionConfiguration -Name Microsoft.PowerShell -showSecurityDescriptorUI
 
-This will open a window where `username` can be added and full privileges assigned to connect to WinRM:
+This will open a window:
+
+| ![Security descriptor window](../../_static/images/Screenshot from 2022-10-09 21-55-30.png) |
+|:--:|
+| Add `username` and assign full privileges to connect to WinRM |
 
 Now `username` can connect via WinRM and having `SeBackup` and `SeRestore` privileges, and after changing the 
 `LocalAccountTokenFilterPolicy` registry key, can do the steps to recover the password hashes from the SAM and 
@@ -133,8 +140,12 @@ In Regedit, go to `HKLM\SAM\SAM\Domains\Account\Users\` where there will be a ke
 To modify `username`, search for a key with its `RID` in `hex`. Under the corresponding key, there will be a value 
 called `F`, which holds the user's effective `RID` at position 0x30:
 
+| ![Registry](../../_static/images/Screenshot from 2022-10-09 22-00-53.png) |
+|:--:|
+| Replace RID |
+
 The RID is stored using little-endian notation, so its bytes appear reversed. Replace those two bytes with the 
-RID of Administrator in hex (500 = `0x01F4`), and switching around the bytes =`F401`:
+RID of Administrator in hex (500 = `0x01F4`), and switching around the bytes =`F401`.
 
 The next time `username` logs in, `LSASS` will associate it with the same `RID` as Administrator and grant them the 
 same privileges.

