@@ -1,9 +1,9 @@
 Forest fire
 ===============================================
 
-.. image:: _static/images/redteaming.png
-   :alt: Red Teaming Path on Try Hack Me
-   :target: https://tryhackme.com/path-action/redteaming/join
+.. figure:: _static/images/red-teaming.png
+
+   `Red Teaming Path on Try Hack Me <https://tryhackme.com/path-action/redteaming/join>`_
 
 .. toctree::
    :glob:
@@ -37,6 +37,8 @@ Forest fire
    :caption: Recon
 
    docs/recon/README.md
+   Falconry <https://tymyrddin.github.io/red-recon/>
+   Lay of the land <https://tymyrddin.github.io/red-enum/>
 
 .. toctree::
    :glob:

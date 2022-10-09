@@ -43,7 +43,7 @@ html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
-    'style_external_links': True,
+    'style_external_links': False,
     # Toc options
     'collapse_navigation': False,
     'sticky_navigation': False,

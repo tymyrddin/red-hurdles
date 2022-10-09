@@ -16,4 +16,7 @@ orchestrate our attacks.
 
 ## How?
 
-* See [Falconry](https://tymyrddin.github.io/red-recon/), and be quiet, keep the noise down.
+Use from these, but choose wisely: be quiet, keep the noise down.
+
+* [Falconry](https://tymyrddin.github.io/red-recon/)
+* [Lay of the land](https://tymyrddin.github.io/red-enum/)
