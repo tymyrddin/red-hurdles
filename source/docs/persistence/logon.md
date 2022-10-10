@@ -83,6 +83,3 @@ in the registry. Use the `UserInitMprLogonScript` entry to point to the payload 
 user logs in.
 
 Set up a listener, sign out of the current session and log in again.
-
-
-
