@@ -53,7 +53,7 @@ Forest fire
    docs/weapons/vba.md
    docs/weapons/psh.md
    docs/weapons/c2.md
-   docs/weapons/morec2s.md
+   Attck infrastructure as code <https://tymyrddin.github.io/red-iac/>
    docs/weapons/delivery.md
    docs/weapons/botnet.md
    docs/weapons/SEO-poisoning.md

@@ -84,6 +84,3 @@ Any search engine software can expect the same search fraud problem as on the in
 * Spam web pages will need to be weeded out from the index.
 * Combating spam is intertwined with search engine poisoning as that attack uses SEO fraud techniques.
 
-## Cheatsheets
-
-* [Redirecting](cheatsheets:docs/payloads/redirecting)

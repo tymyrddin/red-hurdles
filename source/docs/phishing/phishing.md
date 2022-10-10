@@ -47,10 +47,3 @@ Whaling refers to a phishing attack that targets the "big fish" of a company, su
 The victim is researched more thoroughly with reconnaissance and lured with a 
 fake document from, for example, the tax office, and state that the opening of the document requires the 
 installation of some “security software”, or something similar.
-
-## Mitigations
-
-* [Windows PC operations security](windows-pc-mitigations:docs/opsec/README)
-* [macOS operations security](macos-mitigations:docs/opsec/README)
-* [Linux PC operations security](linux-pc-mitigations:docs/opsec/README)
-* [Mailserver](mailserver-mitigations:index)

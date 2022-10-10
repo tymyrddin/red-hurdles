@@ -20,7 +20,7 @@ browser or software exploitation, USB, or web methods.
 * [Visual Basic for application](vba.md)
 * [Powershell](psh.md)
 * [Command and control](c2.md)
-* [About C2's](morec2s.md)
+* [Attack infrastructure as code](red-iac:index)
 * [Delivery techniques](delivery.md)
 * [Create a botnet](botnet.md)
 * [SEO poisoning](../weapons/SEO-poisoning.md)
