@@ -3,7 +3,7 @@ Forest fire
 
 .. figure:: _static/images/red-teaming.png
 
-   `Red Teaming Path on Try Hack Me <https://tryhackme.com/path-action/redteaming/join>`_
+   `Red Teaming Path on Try Hack Me <https://tryhackme.com/path/outline/redteaming>`_
 
 .. toctree::
    :glob:
