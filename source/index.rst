@@ -53,7 +53,7 @@ Forest fire
    docs/weapons/vba.md
    docs/weapons/psh.md
    docs/weapons/c2.md
-   Attck infrastructure as code <https://tymyrddin.github.io/red-iac/>
+   Attack infrastructure as code <https://tymyrddin.github.io/red-iac/>
    docs/weapons/delivery.md
    docs/weapons/botnet.md
    docs/weapons/SEO-poisoning.md
@@ -122,6 +122,31 @@ Forest fire
    docs/persistence/logon.md
    docs/persistence/backdoor-login.md
    docs/persistence/existing.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Lateral movement and pivoting
+
+   docs/pivot/README.md
+   Mythical blue lake <https://tymyrddin.github.io/red-ad/docs/pivot/README.html>
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Data exfiltration
+
+   docs/exfiltration/README.md
+   docs/exfiltration/infra.md
+   docs/exfiltration/tcp.md
+   docs/exfiltration/ssh.md
+   docs/exfiltration/https.md
+   docs/exfiltration/icmp.md
+   docs/exfiltration/dns-conf.md
+   docs/exfiltration/dns.md
+   docs/exfiltration/dns-tunnel.md
 
 .. toctree::
    :caption: Links
