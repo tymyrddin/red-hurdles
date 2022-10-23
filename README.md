@@ -29,4 +29,5 @@ This project welcomes contributions and suggestions.
 [Open an issue here](https://github.com/tymyrddin/red-hurdles/issues)
 
 ## Mind
-Where you stand depends on where you sit, and all threats are cross-vector threats. Without a clear mandate for testing, measuring and reporting actual improvements in security, attempts at improving security makes absolutely no sense, not even for the low-hanging fruit.  
+
+The only way housework could be done in this place was with a shovel or, for preference, a match. ~ (Terry Pratchett, Witches Abroad)
