@@ -10,6 +10,7 @@ Collect more information that will aid us in gaining more access to the target n
 
 ## How?
 
+* [Passive scanning](passive.md)
 * [Linux](linux.md)
 * [Windows](tools.md)
 * [DNS](dns.md)

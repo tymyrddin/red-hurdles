@@ -19,6 +19,7 @@ browser or software exploitation, USB, or web methods.
 * [HTML application](hta.md)
 * [Visual Basic for application](vba.md)
 * [Powershell](psh.md)
+* [Getting out of the box (BeEF)](out-of-the-box.md)
 * [Command and control](c2.md)
 * [Attack infrastructure as code](red-iac:index)
 * [Delivery techniques](delivery.md)

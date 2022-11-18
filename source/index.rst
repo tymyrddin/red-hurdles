@@ -52,6 +52,7 @@ Forest fire
    docs/weapons/hta.md
    docs/weapons/vba.md
    docs/weapons/psh.md
+   docs/weapons/out-of-the-box.md
    docs/weapons/c2.md
    Attack infrastructure as code <https://tymyrddin.github.io/red-iac/>
    docs/weapons/delivery.md
@@ -78,6 +79,11 @@ Forest fire
 
    docs/phishing/README.md
    docs/phishing/phishing.md
+   docs/phishing/mail-delivery.md
+   docs/phishing/fake-login.md
+   docs/phishing/beef-hook.md
+   docs/phishing/analytics.md
+   docs/phishing/fake-prompts.md
    docs/phishing/pharming.md
    docs/phishing/stuffing.md
 
@@ -88,6 +94,7 @@ Forest fire
    :caption: Enumeration
 
    docs/enum/README.md
+   docs/enum/passive.md
    docs/enum/linux.md
    docs/enum/windows.md
    docs/enum/dns.md
