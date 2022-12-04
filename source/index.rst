@@ -37,8 +37,8 @@ Forest fire
    :caption: Recon
 
    docs/recon/README.md
-   Falconry <https://tymyrddin.github.io/red-recon/>
-   Lay of the land <https://tymyrddin.github.io/red-enum/>
+   Falconry (in "In") <https://tymyrddin.github.io/red-recon/>
+   Lay of the land (in "In") <https://tymyrddin.github.io/red-enum/>
 
 .. toctree::
    :glob:
@@ -54,7 +54,7 @@ Forest fire
    docs/weapons/psh.md
    docs/weapons/out-of-the-box.md
    docs/weapons/c2.md
-   Attack infrastructure as code <https://tymyrddin.github.io/red-iac/>
+   Attack infrastructure as code (in "In") <https://tymyrddin.github.io/red-iac/>
    docs/weapons/delivery.md
    docs/weapons/botnet.md
    docs/weapons/SEO-poisoning.md
@@ -146,14 +146,7 @@ Forest fire
    :caption: Data exfiltration
 
    docs/exfiltration/README.md
-   docs/exfiltration/infra.md
-   docs/exfiltration/tcp.md
-   docs/exfiltration/ssh.md
-   docs/exfiltration/https.md
-   docs/exfiltration/icmp.md
-   docs/exfiltration/dns-conf.md
-   docs/exfiltration/dns.md
-   docs/exfiltration/dns-tunnel.md
+   Data exfiltration (in "Out") <https://tymyrddin.github.io/red-exfil/>
 
 .. toctree::
    :caption: Links

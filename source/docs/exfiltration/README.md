@@ -13,17 +13,6 @@ traffic.
 
 ## How?
 
-* [Network infrastructure](infra.md)
-* [Exfiltration using TCP socket](tcp.md)
-* [Exfiltration using SSH](ssh.md)
-* [Exfiltrate using HTTP(S)](https.md)
-* [Exfiltration using ICMP](icmp.md)
-* [DNS configurations](dns-conf.md)
-* [Exfiltration over DNS](dns.md)
-* [DNS tunneling](dns-tunnel.md)
-
-
-
-
+* [Data exfiltration](red-exfil:index) (in "Out")
 
 

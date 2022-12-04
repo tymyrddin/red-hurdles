@@ -80,5 +80,6 @@ intersphinx_mapping = {
     "red-network": ("https://tymyrddin.github.io/red-network/", None),
     "red-iac": ("https://tymyrddin.github.io/red-iac/", None),
     "red-ad": ("https://tymyrddin.github.io/red-ad/", None),
+    "red-exfil": ("https://tymyrddin.github.io/red-exfil/", None),
 }
 myst_url_schemes = ["http", "https", ]

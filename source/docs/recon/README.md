@@ -18,5 +18,5 @@ orchestrate our attacks.
 
 Use from these, but choose wisely: be quiet, keep the noise down.
 
-* [Falconry](https://tymyrddin.github.io/red-recon/)
-* [Lay of the land](https://tymyrddin.github.io/red-enum/)
+* [Falconry](https://tymyrddin.github.io/red-recon/) (in "In")
+* [Lay of the land](https://tymyrddin.github.io/red-enum/) (in "In")
