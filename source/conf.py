@@ -77,7 +77,7 @@ html_show_copyright = False
 
 # Intersphinx
 intersphinx_mapping = {
-    "red-network": ("https://tymyrddin.github.io/red-network/", None),
+    "red-network": ("https://red.tymyrddin.dev/projects/network/en/latest/", None),
     "red-iac": ("https://tymyrddin.github.io/red-iac/", None),
     "red-ad": ("https://tymyrddin.github.io/red-ad/", None),
     "red-exfil": ("https://tymyrddin.github.io/red-exfil/", None),
