@@ -81,5 +81,7 @@ intersphinx_mapping = {
     "red-iac": ("https://red.tymyrddin.dev/projects/iac/en/latest/", None),
     "red-ad": ("https://red.tymyrddin.dev/projects/ad/en/latest/", None),
     "red-exfil": ("https://red.tymyrddin.dev/projects/exfil/en/latest/", None),
+    "red-recon": ("https://red.tymyrddin.dev/projects/recon/en/latest/", None),
+    "red-enum": ("https://red.tymyrddin.dev/projects/enum/en/latest/", None),
 }
 myst_url_schemes = ["http", "https", ]

@@ -11,5 +11,5 @@ not compromised.
 
 ## How?
 
-[Mythical blue lake (active directory hacks)](https://tymyrddin.github.io/red-ad/docs/pivot/README.html) writeups.
+* [Mythical blue lake (active directory hacks)](red-ad:docs/pivot/README) writeups.
 

@@ -37,4 +37,4 @@
 
 ### Alternatives for red teaming
 
-* [A foothold in the cloud](https://tymyrddin.github.io/red-iac/) using Infrastructure as Code.
+* [A foothold in the cloud](red-iac:index) using Infrastructure as Code.
