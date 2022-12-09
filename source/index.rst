@@ -37,8 +37,8 @@ Forest fire
    :caption: Recon
 
    docs/recon/README.md
-   Falconry (in "In") <https://tymyrddin.github.io/red-recon/>
-   Lay of the land (in "In") <https://tymyrddin.github.io/red-enum/>
+   Falconry (in "In") <https://red.tymyrddin.dev/projects/recon/en/latest/>
+   Lay of the land (in "In") <https://red.tymyrddin.dev/projects/enum/en/latest/>
 
 .. toctree::
    :glob:
@@ -54,7 +54,7 @@ Forest fire
    docs/weapons/psh.md
    docs/weapons/out-of-the-box.md
    docs/weapons/c2.md
-   Attack infrastructure as code (in "In") <https://tymyrddin.github.io/red-iac/>
+   Attack infrastructure as code (in "In") <https://red.tymyrddin.dev/projects/iac/en/latest/>
    docs/weapons/delivery.md
    docs/weapons/botnet.md
    docs/weapons/SEO-poisoning.md
@@ -137,7 +137,7 @@ Forest fire
    :caption: Lateral movement and pivoting
 
    docs/pivot/README.md
-   Mythical blue lake <https://tymyrddin.github.io/red-ad/docs/pivot/README.html>
+   Mythical blue lake <https://red.tymyrddin.dev/projects/ad/en/latest/docs/pivot/README.html>
 
 .. toctree::
    :glob:
@@ -146,7 +146,7 @@ Forest fire
    :caption: Data exfiltration
 
    docs/exfiltration/README.md
-   Data exfiltration (in "Out") <https://tymyrddin.github.io/red-exfil/>
+   Data exfiltration (in "Out") <https://red.tymyrddin.dev/projects/exfil/en/latest/>
 
 .. toctree::
    :caption: Links
