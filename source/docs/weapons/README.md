@@ -26,3 +26,9 @@ browser or software exploitation, USB, or web methods.
 * [Create a botnet](botnet.md)
 * [SEO poisoning](../weapons/SEO-poisoning.md)
 
+----
+
+| ![Red Team Tactics, Jon DiMaggio, 2022](../../_static/images/red-team-tactics.png) |
+|:--:|
+| [The Art of Cyberwarfare, Himanshu Sharma , Harpreet Singh, 2018](https://www.packtpub.com/product/hands-on-red-team-tactics/9781788995238) |
+

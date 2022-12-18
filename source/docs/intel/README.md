@@ -19,11 +19,12 @@ such as:
 * [MITRE ATT&CK](mitre-attack.md)
 * [OST Map](ost-map.md)
 
-Other open-source and enterprise threat intelligence platforms:
+----
 
-* Mandiant Advantage
-* Ontic
-* CrowdStrike Falcon
+| ![The Art of Cyberwarfare, Jon DiMaggio, 2022](../../_static/images/the-art-of-cyberwarfare.png) |
+|:--:|
+| [The Art of Cyberwarfare, Jon DiMaggio, 2022](https://nostarch.com/art-cyberwarfare) |
+
 
 
 
