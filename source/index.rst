@@ -1,16 +1,7 @@
 Forest fire
 ===============================================
 
-.. figure:: _static/images/red-teaming.png
-
-   `Red Teaming Path on Try Hack Me <https://tryhackme.com/path/outline/redteaming>`_
-
 Red Teaming is the process of using Tactics, Techniques, and Procedures (TTPs) to emulate a real-world threat with the goals of training and measuring the effectiveness of the people, processes, and technology used to defend an environment.
-
-----
-
-.. image:: _static/images/red-team-books.png
-  :alt: Useful books
 
 ----
 
@@ -157,9 +148,7 @@ Red Teaming is the process of using Tactics, Techniques, and Procedures (TTPs) t
    docs/exfiltration/README.md
    Data exfiltration (in "Out") <https://red.tymyrddin.dev/projects/exfil/en/latest/>
 
-.. toctree::
-   :caption: Links
+----
 
-   Red Team <https://red.tymyrddin.dev/>
-
-
+.. image:: _static/images/red-team-books.png
+  :alt: Useful books
