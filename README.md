@@ -3,7 +3,7 @@
 Built with [Sphinx](https://www.sphinx-doc.org) using a [theme](https://github.com/readthedocs/sphinx_rtd_theme) provided
 by [Read the Docs](https://readthedocs.org/).
 
-[![Documentation Status](https://readthedocs.org/projects/red-hurdles/badge/?version=latest)](https://red.tymyrddin.dev/projects/fire/en/latest/?badge=latest)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/00ba5ad6-d836-449e-92ca-4e5ff8dbb53b/deploy-status)](https://app.netlify.com/sites/incomparable-panda-0e0714/deploys)
 
 ## Requirements
 
