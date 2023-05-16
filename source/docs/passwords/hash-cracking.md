@@ -35,7 +35,7 @@ hashcat -m 1800 -a 0 hash.txt /usr/share/wordlists/rockyou.txt
 ## Notes
 
 Passwords may be sent over the wire or stored in hashed format. You may intercept one or more of these hashes 
-while pursuing other network attacks, for example, with [Responder](red-network:docs/name-resolution/llmnr-netbios). 
+while pursuing other network attacks, for example, with Responder.
 Unlike password spraying, you do not risk account lockouts or alert triggers by cracking a hash offline.
 
 ### Hash functions
