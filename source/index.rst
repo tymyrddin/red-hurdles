@@ -34,11 +34,11 @@ Red Teaming is the process of using Tactics, Techniques, and Procedures (TTPs) t
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Recon
+   :caption: Preparation
 
    docs/recon/README.md
-   Falconry (in "In") <https://red.tymyrddin.dev/projects/recon/en/latest/>
-   Lay of the land (in "In") <https://red.tymyrddin.dev/projects/enum/en/latest/>
+   Falconry (in "In") <https://recon.tymyrddin.dev/>
+   Lay of the land (in "In") <https://enum.tymyrddin.dev/>
 
 .. toctree::
    :glob:
