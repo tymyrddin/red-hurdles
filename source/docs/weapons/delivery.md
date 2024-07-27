@@ -9,7 +9,7 @@ Email delivery is a common method to send the payload by sending a phishing emai
 is to convince the victim to visit a malicious website or download and run the malicious file to gain initial access 
 to the victim's network or host.
 
-Red teamers have [their own infrastructure for phishing purposes](red-iac:index). Depending on 
+Red teamers have [their own infrastructure for phishing purposes](https://iac.tymyrddin.dev/). Depending on 
 the red team engagement requirement, it requires setting up various options within the email server, including 
 DomainKeys Identified Mail (DKIM), Sender Policy Framework (SPF), and DNS Pointer (PTR) record.
 

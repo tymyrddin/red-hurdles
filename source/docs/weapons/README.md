@@ -21,7 +21,7 @@ browser or software exploitation, USB, or web methods.
 * [Powershell](psh.md)
 * [Getting out of the box (BeEF)](out-of-the-box.md)
 * [Command and control](c2.md)
-* [Attack infrastructure as code](red-iac:index) (in "In")
+* [Attack infrastructure as code](https://iac.tymyrddin.dev/) (in "In")
 * [Delivery techniques](delivery.md)
 * [Create a botnet](botnet.md)
 * [SEO poisoning](../weapons/SEO-poisoning.md)

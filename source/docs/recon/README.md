@@ -18,5 +18,5 @@ orchestrate our attacks.
 
 Use from these, but choose wisely: be quiet, keep the noise down.
 
-* [Falconry](red-recon:index) (in "In")
-* [Lay of the land](red-enum:index) (in "In")
+* [Falconry](https://recon.tymyrddin.dev/) (in "In")
+* [Lay of the land](https://enum.tymyrddin.dev/) (in "In")

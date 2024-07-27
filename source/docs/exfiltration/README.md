@@ -13,6 +13,6 @@ traffic.
 
 ## How?
 
-* [Data exfiltration](red-exfil:index) (in "Out")
+* [Data exfiltration](https://exfil.tymyrddin.dev/) (in "Out")
 
 
