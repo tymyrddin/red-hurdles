@@ -54,7 +54,7 @@ Red Teaming is the process of using Tactics, Techniques, and Procedures (TTPs) t
    docs/weapons/psh.md
    docs/weapons/out-of-the-box.md
    docs/weapons/c2.md
-   Attack infrastructure as code (in "In") <https://red.tymyrddin.dev/projects/iac/en/latest/>
+   Attack infrastructure as code (in "In") <https://iac.tymyrddin.dev/>
    docs/weapons/delivery.md
    docs/weapons/botnet.md
    docs/weapons/SEO-poisoning.md
@@ -137,7 +137,7 @@ Red Teaming is the process of using Tactics, Techniques, and Procedures (TTPs) t
    :caption: Lateral movement and pivoting
 
    docs/pivot/README.md
-   Mythical blue lake <https://red.tymyrddin.dev/projects/ad/en/latest/docs/pivot/README.html>
+   Mythical blue lake <https://ad.tymyrddin.dev/>
 
 .. toctree::
    :glob:
@@ -146,7 +146,7 @@ Red Teaming is the process of using Tactics, Techniques, and Procedures (TTPs) t
    :caption: Data exfiltration
 
    docs/exfiltration/README.md
-   Data exfiltration (in "Out") <https://red.tymyrddin.dev/projects/exfil/en/latest/>
+   Data exfiltration (in "Out") <https://exfil.tymyrddin.dev/>
 
 ----
 
